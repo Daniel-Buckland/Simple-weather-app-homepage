@@ -9,7 +9,7 @@ weather.temperature = {
 }
 
 const kelvin = 273;
-// my API key ahfshfa 
+// my API key 
 const myApiKey = "a50fbd270fefd99d47ad4a3d8d83cce8";
 
 // check if the users device supports geolocation
