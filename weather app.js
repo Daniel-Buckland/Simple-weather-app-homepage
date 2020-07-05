@@ -37,7 +37,7 @@ function catchError(error){
 // get weather data from the open weather api
 
 function getWeather(latitude, longitude){
-    let url = `http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${myApiKey}`;
+    let url = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${myApiKey}`;
     
     // If you want to see the mondified url in the console
     // console.log(url)
