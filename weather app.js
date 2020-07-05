@@ -78,14 +78,14 @@ function changePage(){
 }
 
 function changePictureCloud(){
-    weatherImage.src = "Images/cloud.png";
+    weatherImage.src = "./Images/cloud.png";
     pageBackground.style.background = "linear-gradient(to top, #292929, #414141, #5c5b5b, #777777, #949393)";
 }
 function changePicturePartlyCloudy(){
-    weatherImage.src ="Images/Partly-cloudy.png";
+    weatherImage.src ="./Images/Partly-cloudy.png";
     pageBackground.style.background = "linear-gradient(to top, #5ab9d3, #89a9ce, #a49cb7, #a5959e, #949393)";
 }
 
 function changePictureSun(){
-    weatherImage.src ="Images/sun.png";
+    weatherImage.src ="./Images/sun.png";
 }
